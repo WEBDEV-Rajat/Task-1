@@ -1,0 +1,156 @@
+*{
+    box-sizing : border-box;
+    margin : 0;
+    padding : 0;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+
+ header{
+    position :fixed;
+    background-color: #00ABB3;
+    top: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    z-index: 100;
+ }
+ header #logo{
+     font-size: 1.8em;
+     font-weight: bold;
+     margin : 10px;
+     display : flex;
+     align-items: center;
+ 
+ }
+header .navbar{
+    display : flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right : 50px;
+}
+header .navbar a{
+    padding: 30px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    margin-bottom : 5px;
+    text-decoration: none;
+    color : black;
+    font-weight: bold;
+}
+
+header .navbar a:hover{
+    background-color:#165b5f37;
+}
+
+.selling-form{
+    border : 10px solid #00ABB3;
+    margin: 100px;
+    border-radius: 20px;
+    text-align:center;
+    height : fit-content;
+
+}
+
+.selling-form img{
+    height : 100px;
+}
+.selling-form .Product-info i{
+    height : 10px;
+    margin: 1px;
+}
+
+h3{
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.selling-form input{
+    width: 50%;
+    padding : 15px;
+    outline: none;
+    border : none;
+    border-bottom: 2px solid black;
+}
+
+.selling-form input[type = "file"]{
+    margin-left: 25%;
+    margin-top: 10px;
+    border: none;
+}
+button{
+    margin : 10px;
+    background-color:#00ABB3;
+    padding : 10px 40px;
+    cursor: pointer;
+    font-size : 20px;
+
+}
+
+.footer {
+    background-color:#00ABB3;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-column {
+    width: 30%;
+    margin: 10px;
+}
+
+.footer-column h3 {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.footer-column ul {
+    list-style-type: none;
+}
+
+.footer-column ul li {
+    margin: 10px ;
+}
+
+.footer-column ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-column p {
+    margin-top: 10px;
+}
+
+.footer-column .social-icons {
+    margin-top: 10px;
+}
+
+.footer-column .social-icons a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
